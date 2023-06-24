@@ -1,0 +1,10 @@
+Pins HIGH at Boot
+
+一些GPIO在启动或重置时将其状态更改为高或输出PWM信号。这意味着，如果输出连接到这些gpio，则在ESP32重置或引导时可能会得到意外的结果。
+
+GPIO 1
+GPIO 3
+GPIO 5
+GPIO 6 to GPIO 11 (connected to the ESP32 integrated SPI flash memory – not recommended to use).
+GPIO 14
+GPIO 15
